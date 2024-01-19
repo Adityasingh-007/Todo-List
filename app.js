@@ -44,15 +44,6 @@ addTask.addEventListener('click',()=>{
 
             // console.log(e)
             // console.log(e.target)
-            // console.log("hi")
-            // console.log(e.target.parentElement)
-            // console.log(e.target.parentElement.parentElement)
-            // console.log(e.target.parentElement.parentElement.parentElement)
-            // console.log(e.target.parentElement.parentElement.parentElement.parentElement)
-            // console.log(e.target.parentElement.parentElement.parentElement.parentElement.parentElement)
-            // console.group("deep")
-            // console.log(e.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement)
-            // console.log(e.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement)
             let target=e.target;
             target.parentElement.parentElement.remove();
         })
